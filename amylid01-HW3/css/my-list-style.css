@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'Rainbow';
+  src: URL('Rainbow.ttf') format('truetype');
+}
+
+article{
+  opacity:1;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 5px #000;
+  position: relative;
+  width: 80%;
+  height: 80vh;
+  top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+
+div{
+  font-family: serif;
+  font-size: 3.5vmin;
+  color: white;
+}
+
+div.title{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-height:50px;
+  font-size: 46px;
+  font-family: 'Rainbow', serif;
+  top:100px;
+  font-weight: bold;
+}
+
+div.text{
+  top:0;
+  width: 66%;
+  display: inline-block;  
+}
+
+img{
+	height: 100%;
+	width: 100%;
+    object-fit: contain;
+}
+
+div.imgright{
+  width:30%;
+  float:right;
+  margin-left:3%;
+  
+}
+div.imgleft{
+  width:30%;
+  margin-right:3%;
+  float:left;
+}
+
+header{
+  background: black;
+  height: 500px;
+}
+header img{
+	height: 400px;
+}
+header div{
+  font-family: 'Rainbow', serif;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 80%;
+  top:-80px;
+  max-height:200px;
+  font-size: 60px;
+}
+header div.author{
+  font-size: 34px;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/********************** Parallax **********************/
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.static {
+  background: black;
+  min-height: 250px;
+}
+
+.bg1 {
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('https://www.titancodes.com/images/D/ss_3e32f0fdc423d423c3dadb0c143bca9dcf35632b.1920x1080-01.jpg');
+  min-height: 100%;
+}
+
+.bg2 {
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('https://pbs.twimg.com/media/CaR_K-pUYAU3pUQ.jpg:large');
+  min-height: 100%;
+}
+
+.bg3 {
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('https://www.mobygames.com/images/promo/original/1465817428-1341298285.jpg');
+  min-height: 100%;
+}
+.bg4 {
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('https://cdn.hipwallpaper.com/i/25/16/rOHeg3.jpg');
+  min-height: 100%;
+}
+.bg5 {
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('https://ksassets.timeincuk.net/wp/uploads/sites/55/2015/12/2015rainbow6_pres3s_071214-1.jpg');
+  min-height: 100%;
+}
+.bg6 {
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('https://images8.alphacoders.com/588/thumb-1920-588456.jpg');
+  min-height: 100%;
+}
+.bg7 {
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('https://images4.alphacoders.com/676/thumb-1920-676369.jpg');
+  min-height: 100%;
+}
